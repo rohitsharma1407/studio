@@ -1,3 +1,4 @@
+
 export type Deliverable = {
   id: string;
   title: string;
@@ -49,7 +50,7 @@ export type Client = {
 };
 
 export const clients: Client[] = [
-  { id: "client-1", name: "John Doe", company: "Innovate Inc.", email: "john.doe@innovate.com", phone: "123-456-7890", projectIds: ["proj-101", "proj-102"] },
+  { id: "client-1", name: "Rohit Sharma", company: "Innovate Inc.", email: "rohit.sharma@innovate.com", phone: "123-456-7890", projectIds: ["proj-101", "proj-102"] },
   { id: "client-2", name: "Jane Smith", company: "Tech Solutions", email: "jane.smith@techsolutions.com", phone: "098-765-4321", projectIds: ["proj-103"] },
 ];
 
@@ -106,7 +107,7 @@ export const projects: Project[] = [
 ];
 
 export const tickets: Ticket[] = [
-    { id: "t-1", projectId: "proj-101", title: "Cannot login to test server", description: "Getting a 500 error when trying to access the staging environment.", status: "In Progress", priority: "High", createdBy: "John Doe", createdDate: "2024-04-10", assignedTo: "Charlie Brown" },
-    { id: "t-2", projectId: "proj-101", title: "Request for new report feature", description: "We would like to add a sales report to the admin dashboard.", status: "Open", priority: "Medium", createdBy: "John Doe", createdDate: "2024-04-12", assignedTo: "Pending" },
+    { id: "t-1", projectId: "proj-101", title: "Cannot login to test server", description: "Getting a 500 error when trying to access the staging environment.", status: "In Progress", priority: "High", createdBy: "Rohit Sharma", createdDate: "2024-04-10", assignedTo: "Charlie Brown" },
+    { id: "t-2", projectId: "proj-101", title: "Request for new report feature", description: "We would like to add a sales report to the admin dashboard.", status: "Open", priority: "Medium", createdBy: "Rohit Sharma", createdDate: "2024-04-12", assignedTo: "Pending" },
     { id: "t-3", projectId: "proj-103", title: "Data sync issue", description: "Customer data from October is not syncing correctly.", status: "Closed", priority: "High", createdBy: "Jane Smith", createdDate: "2023-03-20", assignedTo: "Alice Johnson" },
 ];
