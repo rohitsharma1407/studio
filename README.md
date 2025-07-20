@@ -1,5 +1,5 @@
-# Firebase Studio
+#CODE FOR SUPRATHON 2025
 
-This is a NextJS starter in Firebase Studio.
+# I AM ROHIT AND MY TEAM MEMBER'S 1) mohitraj yadav  2) yuvraj saini  3) rajnish bavlia
 
-To get started, take a look at src/app/page.tsx.
+THANKS YOU  ....................
