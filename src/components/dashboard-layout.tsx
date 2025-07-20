@@ -66,7 +66,7 @@ export function DashboardLayout({ navItems, children }: DashboardLayoutProps) {
           <UserNav />
         </SidebarFooter>
       </Sidebar>
-      <SidebarInset>
+      <SidebarInset className="bg-gradient-to-br from-orange-100 via-white to-green-100">
         <Header />
         <main className="p-4 sm:p-6 lg:p-8">{children}</main>
       </SidebarInset>
