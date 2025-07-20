@@ -39,7 +39,7 @@ export function DashboardLayout({ navItems, children }: DashboardLayoutProps) {
         <SidebarHeader>
           <div className="flex items-center gap-2">
             <Logo />
-            <span className="text-xl font-semibold">ClarityFlow</span>
+            <span className="text-xl font-semibold">ROKO 45</span>
           </div>
         </SidebarHeader>
         <SidebarContent>

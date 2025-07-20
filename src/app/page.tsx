@@ -12,7 +12,7 @@ export default function LoginPage() {
       <div className="flex flex-col items-center space-y-4">
         <div className="flex items-center space-x-2">
           <Logo />
-          <h1 className="text-3xl font-bold text-primary">ClarityFlow</h1>
+          <h1 className="text-3xl font-bold text-primary">ROKO 45</h1>
         </div>
         <p className="text-muted-foreground">Manage client projects with clarity</p>
         <Tabs defaultValue="client" className="w-[400px] mt-4">
@@ -59,7 +59,7 @@ export default function LoginPage() {
               <CardContent className="space-y-4">
                 <div className="space-y-2">
                   <Label htmlFor="admin-email">Email</Label>
-                  <Input id="admin-email" type="email" placeholder="admin@clarityflow.com" />
+                  <Input id="admin-email" type="email" placeholder="admin@roko45.com" />
                 </div>
                 <div className="space-y-2">
                 <div className="flex items-center">
