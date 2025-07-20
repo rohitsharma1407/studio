@@ -8,8 +8,8 @@ import { Logo } from "@/components/logo";
 
 export default function LoginPage() {
   return (
-    <div className="flex items-center justify-center min-h-screen bg-background">
-      <div className="flex flex-col items-center space-y-4">
+    <div className="flex items-center justify-center min-h-screen bg-gradient-to-br from-orange-400 via-white to-green-400">
+      <div className="flex flex-col items-center space-y-4 bg-white/80 backdrop-blur-sm p-8 rounded-2xl shadow-2xl">
         <div className="flex items-center space-x-2">
           <Logo />
           <h1 className="text-3xl font-bold text-primary">ROKO 45</h1>
